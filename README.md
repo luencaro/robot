@@ -56,7 +56,7 @@ Puedes ejecutar el programa de la siguiente manera:
   
   Guarda la entrada en un archivo, por ejemplo `entrada.txt`, y luego ejecuta:
   ```bash
-  python tu_programa.py < entrada.txt
+  Get-Content entrada.txt | python main.py
   ```
   
 - **Entrada manual:**
